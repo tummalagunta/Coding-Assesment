@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS palindrome;
+
+CREATE TABLE palindrome (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  name VARCHAR(1000) NOT NULL
+);
